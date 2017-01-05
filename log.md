@@ -1,30 +1,20 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+Day 1: January 4, 2016
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Today's Progress: Worked on Title Case a Sentence, not yet complete
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Thoughts: I'm starting to think that the way to title case a sentence lies in the slice method.
 
-**Link to work:** [Calculator App](http://www.example.com)
+Link to work: https://www.freecodecamp.com/challenges/title-case-a-sentence#?solution=%0Afunction%20titleCase(str)%20%7B%0A%20%20return%20str%3B%0A%7D%0A%0AtitleCase(%22I'm%20a%20little%20tea%20pot%22)%3B%0A
+var spry = [];
+function titleCase(str) {
+  var several = str.split([" "]);
+  //for (var i = 0; i <= several.length; i++) {
+    //var mench = several.slice(0);
+    //spry.push(mench);
+  var strs = spry.join(' ');
+  return strs;
+}
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+titleCase("I'm a little tea pot");
